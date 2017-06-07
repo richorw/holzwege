@@ -1,9 +1,9 @@
 article {
   position: relative;
-  padding: 8rem 0;
+  padding: 4rem 0;
 }
 article a {
-  color: #8cc63f;
+  color: #7fad27;
 }
 article:not(:first-child):before {
   content: '';
@@ -19,11 +19,11 @@ article blockquote {
   margin: 6rem 2rem;
   padding-left: 15px;
   line-height: 2rem;
-  border-left: 4px solid #8cc63f;
+  border-left: 4px solid #7fad27;
 }
 article .article-title {
   position: relative;
-  color: #212121;
+  color: #10100f;
   font-size: 2.4rem;
   line-height: 1.3;
   text-align: center;
@@ -32,19 +32,19 @@ article .article-title {
 }
 article .article-title a {
   display: block;
-  color: #212121;
+  color: #10100f;
 }
 article .article-title a span {
   padding-bottom: 3px;
   -webkit-transition: 0.15s;
   transition: 0.15s;
-  box-shadow: inset 0 -2px 0 rgba(140,198,63,0);
+  box-shadow: inset 0 -2px 0 rgba(127,173,39,0);
 }
 article .article-title a:hover {
-  color: #212121;
+  color: #10100f;
 }
 article .article-title a:hover span {
-  box-shadow: inset 0 -2px 0 rgba(140,198,63,0);
+  box-shadow: inset 0 -2px 0 rgba(127,173,39,0.4);
 }
 article .article-top-meta {
   position: relative;
@@ -60,7 +60,7 @@ article .article-top-meta a {
   color: #9e9e9e;
 }
 article .article-top-meta a:hover {
-  color: #8cc63f;
+  color: #7fad27;
 }
 article .article-top-meta a time {
   font-style: italic;
@@ -70,7 +70,7 @@ article .article-content,
 article .featured-media {
   margin: 4rem 0;
   font-size: 1.6rem;
-  color: #424242;
+  color: #242522;
 }
 article .article-excerpt img,
 article .article-content img,
@@ -108,7 +108,7 @@ article .article-footer .article-meta a {
   color: #9e9e9e;
 }
 article .article-footer .article-meta a:hover {
-  color: #8cc63f;
+  color: #7fad27;
 }
 article .article-footer .article-meta i {
   vertical-align: middle;
@@ -132,7 +132,7 @@ article code {
 }
 article p {
   margin: 2rem 0;
-  line-height: 1.8;
+  line-height: 2;
 }
 article .video-container {
   position: relative;

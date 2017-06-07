@@ -15,8 +15,8 @@ a {
   text-decoration: none;
 }
 body {
-  background-color: #f7f7f7;
-  font-family: "Segoe UI", "Lucida Grande", Helvetica, "Microsoft YaHei", FreeSans, Arimo, "Droid Sans", "wenquanyi micro hei", "Hiragino Sans GB", "Hiragino Sans GB W3", Arial, sans-serif;
+  background-color: #fafaf9;
+  font-family: "Alegreya", "Georgia", "source-han-serif-sc", serif;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   overflow-x: hidden;
@@ -24,13 +24,12 @@ body {
 body .blog {
   max-width: 1170px;
   min-height: 100vh;
-  background-color: #fff;
+  background-color: #fafaf9;
   margin: 0 auto;
 }
 body .blog .content {
   box-sizing: border-box;
   max-width: 770px;
   width: 100%;
-  padding: 80px 10px 10px;
   margin: 0 auto;
 }

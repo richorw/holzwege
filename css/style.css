@@ -440,8 +440,8 @@ a {
   text-decoration: none;
 }
 body {
-  background-color: #f7f7f7;
-  font-family: "Segoe UI", "Lucida Grande", Helvetica, "Microsoft YaHei", FreeSans, Arimo, "Droid Sans", "wenquanyi micro hei", "Hiragino Sans GB", "Hiragino Sans GB W3", Arial, sans-serif;
+  background-color: #fafaf9;
+  font-family: "Alegreya", "Georgia", "source-han-serif-sc", serif;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   overflow-x: hidden;
@@ -449,14 +449,13 @@ body {
 body .blog {
   max-width: 1170px;
   min-height: 100vh;
-  background-color: #fff;
+  background-color: #fafaf9;
   margin: 0 auto;
 }
 body .blog .content {
   box-sizing: border-box;
   max-width: 770px;
   width: 100%;
-  padding: 80px 10px 10px;
   margin: 0 auto;
 }
 header {
@@ -465,31 +464,31 @@ header {
 header .site-branding {
   text-align: center;
   margin-bottom: 2rem;
-  font-family: "Open Sans", arial, sans-serif;
-  letter-spacing: 0.1em;
+  font-family: "Alegreya", "Georgia", "source-han-serif-sc", serif;
+  letter-spacing: 0.5em;
   text-transform: uppercase;
 }
 header .site-branding .site-title {
   margin: 0;
-  font-size: 1.4rem;
+  font-size: 2.2rem;
 }
 header .site-branding .site-title a {
   display: inline-block;
   color: #fff;
   font-weight: bolder;
-  background-color: #f03838;
-  line-height: 3rem;
-  height: 3rem;
-  padding: 0 1rem;
+  background-color: #7fad27;
+  line-height: 5rem;
+  height: 5rem;
+  padding: 0rem 4rem;
   -webkit-transition: padding 0.3s ease-out;
   transition: padding 0.3s ease-out;
 }
 header .site-branding .site-title a:hover {
-  padding: 0 1.5rem;
+  padding: 0 3.4rem;
 }
 header .site-branding .site-description {
   color: #9e9e9e;
-  font-size: 1.3rem;
+  font-size: 1.6rem;
   margin: 1rem 0 0;
 }
 header .site-navigation {
@@ -499,7 +498,7 @@ header .site-navigation ul {
   list-style: none;
   padding: 0;
   margin: 0;
-  font-size: 1.6em;
+  font-size: 1.8em;
 }
 header .site-navigation ul li {
   display: inline-block;
@@ -507,17 +506,22 @@ header .site-navigation ul li {
 }
 header .site-navigation ul li a {
   display: block;
-  color: #f03838;
+  color: #7fad27;
   font-size: 1.6rem;
-  line-height: 2rem;
-  padding: 0 1rem;
+  line-height: 5rem;
+  padding: 0 1.5rem;
+  font-weight: bold;
+  letter-spacing: 0.4rem;
+}
+header .site-navigation ul li a:hover {
+  opacity: 0.7;
 }
 article {
   position: relative;
-  padding: 8rem 0;
+  padding: 4rem 0;
 }
 article a {
-  color: #8cc63f;
+  color: #7fad27;
 }
 article:not(:first-child):before {
   content: '';
@@ -533,11 +537,11 @@ article blockquote {
   margin: 6rem 2rem;
   padding-left: 15px;
   line-height: 2rem;
-  border-left: 4px solid #8cc63f;
+  border-left: 4px solid #7fad27;
 }
 article .article-title {
   position: relative;
-  color: #212121;
+  color: #10100f;
   font-size: 2.4rem;
   line-height: 1.3;
   text-align: center;
@@ -546,19 +550,19 @@ article .article-title {
 }
 article .article-title a {
   display: block;
-  color: #212121;
+  color: #10100f;
 }
 article .article-title a span {
   padding-bottom: 3px;
   -webkit-transition: 0.15s;
   transition: 0.15s;
-  box-shadow: inset 0 -2px 0 rgba(140,198,63,0);
+  box-shadow: inset 0 -2px 0 rgba(127,173,39,0);
 }
 article .article-title a:hover {
-  color: #212121;
+  color: #10100f;
 }
 article .article-title a:hover span {
-  box-shadow: inset 0 -2px 0 rgba(140,198,63,0);
+  box-shadow: inset 0 -2px 0 rgba(127,173,39,0.4);
 }
 article .article-top-meta {
   position: relative;
@@ -574,7 +578,7 @@ article .article-top-meta a {
   color: #9e9e9e;
 }
 article .article-top-meta a:hover {
-  color: #8cc63f;
+  color: #7fad27;
 }
 article .article-top-meta a time {
   font-style: italic;
@@ -584,7 +588,7 @@ article .article-content,
 article .featured-media {
   margin: 4rem 0;
   font-size: 1.6rem;
-  color: #424242;
+  color: #242522;
 }
 article .article-excerpt img,
 article .article-content img,
@@ -622,7 +626,7 @@ article .article-footer .article-meta a {
   color: #9e9e9e;
 }
 article .article-footer .article-meta a:hover {
-  color: #8cc63f;
+  color: #7fad27;
 }
 article .article-footer .article-meta i {
   vertical-align: middle;
@@ -646,7 +650,7 @@ article code {
 }
 article p {
   margin: 2rem 0;
-  line-height: 1.8;
+  line-height: 2;
 }
 article .video-container {
   position: relative;
@@ -702,8 +706,8 @@ article.archive {
   margin: 2em auto;
 }
 .archive-post .archive-title {
-  font-size: 2.8em;
-  line-height: 1;
+  font-size: 1.8em;
+  line-height: 2em;
   position: relative;
   color: #212121;
   margin: 0;
@@ -715,19 +719,19 @@ article.archive {
   padding-bottom: 3px;
   -webkit-transition: box-shadow 0.15s;
   transition: box-shadow 0.15s;
-  box-shadow: inset 0 -2px 0 rgba(140,198,63,0);
+  box-shadow: inset 0 -2px 0 rgba(127,173,39,0);
 }
 .archive-post .archive-title a:hover {
   color: #212121;
 }
 .archive-post .archive-title a:hover span {
-  box-shadow: inset 0 -2px 0 rgba(140,198,63,0.4);
+  box-shadow: inset 0 -2px 0 rgba(127,173,39,0.4);
 }
 .archive-post time {
   font-style: italic;
 }
 .archive-post time a {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   color: #9e9e9e;
 }
 .archive-post time a:before {
@@ -775,7 +779,7 @@ article .tags-cloud a {
 }
 article .archive-tags a:hover,
 article .tags-cloud a:hover {
-  color: #8cc63f;
+  color: #7fad27;
 }
 article .archive-tags i,
 article .tags-cloud i {
@@ -835,7 +839,7 @@ article .categories-cloud a {
 }
 article .archive-categories a:hover,
 article .categories-cloud a:hover {
-  color: #8cc63f;
+  color: #7fad27;
 }
 article .archive-categories i,
 article .categories-cloud i {
@@ -870,10 +874,11 @@ article .categories-cloud .post-categories a:not(:last-of-type):after {
 }
 .pagination .pagination-prev,
 .pagination .pagination-next {
-  color: #f03838;
-  font-size: 1.6rem;
+  color: #7fad27;
+  font-size: 1.4rem;
   border: 1px solid #e0e0e0;
-  line-height: 30px;
+  font-weight: bold;
+  line-height: 34px;
   height: 32px;
   padding: 0 20px;
   border-radius: 16px;
@@ -883,8 +888,8 @@ article .categories-cloud .post-categories a:not(:last-of-type):after {
 .pagination .pagination-prev:hover,
 .pagination .pagination-next:hover {
   color: #fff;
-  background-color: #f03838;
-  border-color: #f03838;
+  background-color: #7fad27;
+  border-color: #7fad27;
 }
 footer.site-footer {
   position: relative;
@@ -892,9 +897,10 @@ footer.site-footer {
   line-height: 1.8;
   padding-top: 1rem;
   color: #9e9e9e;
+  letter-spacing: 0.1em;
 }
 footer.site-footer a {
-  color: #f03838;
+  color: #7fad27;
 }
 footer.site-footer .site-info {
   color: #9e9e9e;
@@ -1093,13 +1099,28 @@ pre .deletion {
     padding: 2.5rem 0 !important;
   }
 }
-* {
-  font-family: "Avenir Next", "Segoe UI", "Helvetica Neue", Arial, "Hiragino Sans GB", "PingFang SC", "Heiti SC", "Microsoft YaHei UI", "Microsoft YaHei", "Source Han Sans", sans-serif;
-}
-p {
+article p {
   text-align: justify;
+  font-size: 18px;
 }
-body,
-.blog {
-  background-color: #fdfffa;
+article h1,
+article h2,
+article h3,
+article h4,
+article h5,
+article h6,
+article p {
+  line-height: 2.2em;
+  letter-spacing: 0.07em;
+}
+.article-title {
+  letter-spacing: 0.2em;
+}
+.entry ul li {
+  line-height: 2;
+}
+.site-description {
+  letter-spacing: 0.3rem;
+  line-height: 3rem;
+  text-transform: none;
 }

@@ -1102,7 +1102,7 @@ pre .deletion {
 }
 article p {
   text-align: justify;
-  font-size: 18px;
+  font-size: 1em;
 }
 article h1,
 article h2,
@@ -1110,18 +1110,39 @@ article h3,
 article h4,
 article h5,
 article h6,
-article p {
+article p,
+article ol,
+article ul {
   line-height: 2.2em;
-  letter-spacing: 0.07em;
+}
+.entry h1,
+.entry h2,
+.entry h3,
+.entry h4,
+.entry h5,
+.entry h6 {
+  font-size: 1.2em;
 }
 .article-title {
   letter-spacing: 0.2em;
-}
-.entry ul li {
-  line-height: 2;
 }
 .site-description {
   letter-spacing: 0.3rem;
   line-height: 3rem;
   text-transform: none;
+}
+article ol,
+article ul,
+article p {
+  padding: 0.2em;
+  text-align: justify;
+  font-size: 1em;
+}
+body {
+  -webkit-font-smoothing: none;
+  -moz-osx-font-smoothing: none;
+}
+ul,
+ol {
+  padding-left: 1em;
 }

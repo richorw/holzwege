@@ -830,7 +830,7 @@ article .archive-categories > span > span {
 article .archive-categories,
 article .categories-cloud {
   margin: 8rem 0;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   color: #9e9e9e;
 }
 article .archive-categories a,
@@ -1095,8 +1095,9 @@ pre .deletion {
   .content {
     padding-top: 20px !important;
   }
-  article {
-    padding: 2.5rem 0 !important;
+  article,
+  #comments {
+    padding: 2.5rem 3rem !important;
   }
 }
 article p {

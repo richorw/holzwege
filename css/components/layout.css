@@ -29,7 +29,7 @@ body .blog {
 }
 body .blog .content {
   box-sizing: border-box;
-  max-width: 770px;
+  max-width: 640px;
   width: 100%;
   margin: 0 auto;
 }

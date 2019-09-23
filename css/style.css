@@ -441,24 +441,17 @@ a {
 }
 body {
   background-color: #fafaf9;
-  font-family: "Minion Pro", minion-pro, Athelas, "Sitka Text", Times, "Times New Roman", YuMincho,;
+  font-family: "Minion Pro", minion-pro, Athelas, "Sitka Text", Times, "Times New Roman", YuMincho, "Hiragino Mincho ProN", "source-han-serif-sc", serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
 }
-body "Hiragino Mincho ProN,
-body serif,
-body -moz-osx-font-smoothing grayscale,
-body -webkit-font-smoothing antialiased,
-body overflow-x hidden,
 body .blog {
   max-width: 1170px;
   min-height: 100vh;
   background-color: #fafaf9;
   margin: 0 auto;
 }
-body "Hiragino Mincho ProN .content,
-body serif .content,
-body -moz-osx-font-smoothing grayscale .content,
-body -webkit-font-smoothing antialiased .content,
-body overflow-x hidden .content,
 body .blog .content {
   box-sizing: border-box;
   max-width: 640px;

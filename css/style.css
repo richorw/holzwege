@@ -1113,7 +1113,7 @@ article h6,
 article p,
 article ol,
 article ul {
-  line-height: 2.2em;
+  line-height: 2em;
 }
 .entry h1,
 .entry h2,
@@ -1124,7 +1124,6 @@ article ul {
   font-size: 1.2em;
 }
 .site-description {
-  letter-spacing: 0.3rem;
   line-height: 3rem;
   text-transform: none;
 }
